@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(../img/training.jpg);
+  background-size: cover;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 0px 10px;
+  /* font-size: 20px; */
+  /* border: 3px solid green; */
+}
+
+.left {
+  /* border: 3px solid red; */
+  justify-content: center;
+  /* position: absolute;
+  left: 20px; */
+}
+
+.left img {
+  width: 40px;
+  filter: invert();
+  display: block;
+  margin: auto;
+}
+
+.left div {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.mid {
+  /* border: 3px solid blue; */
+  width: 50%;
+}
+
+.right {
+  /* border: 3px solid yellow; */
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navBar li {
+  list-style: none;
+  margin: 0 20px;
+  /* font-size: ; */
+}
+
+.navBar li a {
+  text-decoration: none;
+  color: white;
+  /* text-transform: uppercase; */
+}
+
+.navBar li a:hover {
+  /* text-decoration: underline; */
+  /* background-color: red; */
+  color: rgb(199, 227, 14);
+}
+
+.btn {
+  margin: 0px 10px;
+  padding: 4px 8px;
+  color: white;
+  background-color: black;
+  border: 2px solid grey;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.container {
+  border: 1px solid white;
+  width: 33%;
+  margin: 50px 75px;
+  padding: 25px 5px;
+  border-radius: 35px;
+  align-items: center;
+  /* height: 500px; */
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.formGrp input {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: block;
+  width: 300px;
+  margin: 5px auto;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.formGrp button {
+  display: block;
+  width: 25%;
+  margin: auto;
+}
